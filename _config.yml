@@ -39,9 +39,9 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - '/'
+    - { Categories: '/categories/' }
+    - { Tags: '/tags/' }
   About:          
     - '/about/'
   Github Project: 
