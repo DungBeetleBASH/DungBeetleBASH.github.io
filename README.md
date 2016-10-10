@@ -1,3 +1,3 @@
 # DungBeetleBASH
 
-Just a blog.
+Just a programming blog.
