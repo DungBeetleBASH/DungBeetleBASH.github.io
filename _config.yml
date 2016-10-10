@@ -18,7 +18,7 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/page:num'
+paginate_path: '/blog/page:num'
 permalink: pretty
 
 version: 1.0.0
@@ -39,17 +39,17 @@ author:
 # Navigation (2nd level links supported)
 nav:
   Home:           
-    - '/'
-    - { Categories: '/categories/' }
-    - { Tags: '/tags/' }
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
   Github Project: 
     - 'https://github.com/DungBeetleBASH'
 
 # Where are tags and categories displayed
-tag_page: '/tags/'
-category_page: '/categories/'
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 hero:
   image: /public/img/two-hats.png
