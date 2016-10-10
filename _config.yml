@@ -1,44 +1,62 @@
-# Site settings
+# Site Info
 title: DungBeetleBASH
-description: Makers of Farty Turd for Android and other stuff.
-email: dungbeetlebash@gmail.com
-baseurl: 
-url: "https://dungbeetlebash.github.io" # the base hostname & protocol for your site
-#favicon
-favicon: /favicon.png
+tagline: 'Can\'t decide if personal or professional'
+description: 'Somewhere to mull over my programming experiments.'
+baseurl: ""
+url: https://dungbeetlebash.github.io
+logo: '/public/img/refactoring-hat.png'
+favicon: /favicon.ico
 
-#feed
-#feedburner_username: maangalabs
-#twitter
-#twitter_username: 
-github_username:  DungBeetleBASH
-
-#linkedin
-#linkedin_username: 
-
-#google analytics
-#google_analytics_id : 
-#gplus
-gplus_username: 108436493437282884898
-
-#fb_username
-#fb_username: 
-
-#permalink /blog/2014/11/11/this-is-a-sample-post
-permalink: /blog/:year/:month/:day/:title
-# Build settings
+# Site configurations
+gems:
+  - jekyll-paginate
 markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/page:num'
+permalink: pretty
 
-#Disqus configuration
-#disqus_short_name: 
-#disqus_show_comment_count: true
+version: 1.0.0
 
-#Can be used for multiple author blogs ! Add name to post For more visit the sample
-authors:
-  Pappa:
-    display_name: Pappa
-    email: dungbeetlebash@gmail.com
-#    fb: 
-#    linkedin: 
-#    twitter: 
-    github: DungBeetleBASH
+# About/contact
+author:
+  name: Pappa
+  description: Code monkey.
+  gravatar: be82c4e5dd6079e8f68b97599cb131bb # md5 hash of your email address
+  contact:
+    #linkedin:  <hide>
+    github:    https://github.com/DungBeetleBASH
+    # facebook:  <hide>
+    # twitter:   <hide>
+    # weibo:     <hide>
+    # email:     <hide>
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+    - { Categories: '/categories/' }
+    - { Tags: '/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'https://github.com/DungBeetleBASH'
+
+# Where are tags and categories displayed
+tag_page: '/tags/'
+category_page: '/categories/'
+
+hero:
+  image: /public/img/two-hats.png
+  caption: Never wear two hats at the same time. It's silly.
+
+# Puglins
+mathjax: true # whether support mathjax
+# google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+# disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
