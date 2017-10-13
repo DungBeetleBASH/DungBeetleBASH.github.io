@@ -3,6 +3,7 @@ layout: post
 title:  "Farty Turd"
 date:   2015-08-19 20:37:00 +00:00
 categories: FartyTurd
+tags: Phaser
 author: Pappa
 github_repo_username: 
 github_repo : 
