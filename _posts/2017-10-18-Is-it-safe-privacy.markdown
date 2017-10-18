@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Is it safe to go outside? - Privacy Policy"
-date:   2017-010-18 21:06:00 +00:00
+date:   2017-10-18 21:06:00 +00:00
 categories: Alexa
 tags: Alexa Privacy
 author: Pappa
